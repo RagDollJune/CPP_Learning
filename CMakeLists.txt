@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.2)
+project(CppLearning)
+set(CMAKE_CXX_STANDARD 17)
+include_directories(${PROJECT_SOURCE_DIR}/include)
+set(SRC_LIST classB.cpp test.cpp )
+add_executable(test ${SRC_LIST})
